@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfólio Criativo - Lucca Ferrari</title>
+  <style>
+    /* Reset básico */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #0f2027; /* degrade escuro */
+      background: linear-gradient(135deg, #203a43, #2c5364);
+      color: #eee;
+      line-height: 1.6;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      padding-bottom: 30px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: #00f5a0;
+      margin-bottom: 10px;
+      letter-spacing: 2px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #a0f0c7;
+      font-style: italic;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 0 auto 50px auto;
+      background: rgba(255, 255, 255, 0.05);
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0, 245, 160, 0.3);
+    }
+
+    h2 {
+      color: #00f5a0;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #00f5a0;
+      padding-bottom: 8px;
+    }
+
+    /* Sobre Mim */
+    #sobre p {
+      font-size: 1.1rem;
+      color: #cdecd4;
+    }
+
+    /* Habilidades */
+    ul.habilidades {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    ul.habilidades li {
+      background: #00f5a0;
+      color: #0f2027;
+      padding: 10px 20px;
+      border-radius: 50px;
+      font-weight: 600;
+      box-shadow: 0 4px 8px rgba(0, 245, 160, 0.3);
+      transition: transform 0.3s ease;
+      cursor: default;
+    }
+
+    ul.habilidades li:hover {
+      transform: scale(1.1);
+    }
+
+    /* Projetos */
+    .projeto {
+      background: #162f38;
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px rgba(0, 245, 160, 0.2);
+      transition: background 0.3s ease;
+    }
+
+    .projeto:hover {
+      background: #00f5a0;
+      color: #0f2027;
+      box-shadow: 0 0 20px #00f5a0;
+    }
+
+    .projeto h3 {
+      margin-bottom: 10px;
+    }
+
+    .projeto p {
+      font-size: 1rem;
+      margin-bottom: 10px;
+    }
+
+    .projeto img {
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(0, 245, 160, 0.3);
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+
+    .projeto img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Contato */
+    #contato a {
+      display: inline-block;
+      margin-right: 20px;
+      text-decoration: none;
+      color: #00f5a0;
+      font-weight: 700;
+      border: 2px solid #00f5a0;
+      padding: 8px 18px;
+      border-radius: 50px;
+      transition: background 0.3s ease, color 0.3s ease;
+    }
+
+    #contato a:hover {
+      background: #00f5a0;
+      color: #0f2027;
+    }
+
+    /* Responsividade */
+    @media (max-width: 600px) {
+      ul.habilidades {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Lucca Ferrari</h1>
+    <p>Designer Gráfico & Desenvolvedor Web</p>
+  </header>
+
+  <section id="sobre">
+    <h2>Sobre Mim</h2>
+    <p>Meu nome é  Lucca Ferrari, tenho 15 anos e esdudo na escola cedup Perfeito Manel de Aguiar, no curso de técnico de Desenvolvimento de Sistemas, a tecnologia pra mim enfluência muito para aprente coisa novos e inovadoras ou até inovar algo
+  <section id="habilidades">
+    <h2>Minhas Habilidades</h2>
+    <ul class="habilidades"
+      <li>HTML & CSS</li>
+      <li>JavaScript</li>
+    </ul>
+  </section>
+
+  <section id="projetos">
+    <h2>Projetos Destaque</h2>
+
+    <article class="projeto">
+      <h3>Projeto1</h3>
+      <p>Eu e meu grupo da feira de ciência fizemos um aplicativo para receber um aviso pra prefeitura para limpeza das ruas com urgencia para a região de Santa Catarina e cidade de Guaramirim.</p>
+      <img src="https://via.placeholder.com/800x400?text=Projeto+1" alt="Projeto 1 - Identidade Visual" />
+    </article>
+
+    <article class="projeto">
+      <h3>projeto2</h3>
+      <p>Eu e meu grupo do hackaton fizemos um site que traz os reicos de deslisamento de terra e enchentes.</p>
+      <img src="https://via.placeholder.com/800x400?text=Projeto+2" alt="Projeto 2 - Website" />
+    </article>
+
+  <section id="contato">
+    <h2>Contato</h2>
+   <a href="mailto:lucca.ferraricloud@gmail.com">lucca.ferraricloud@gmail.com</a>
+    
+  </section>
+
+</body>
+</html>
